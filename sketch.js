@@ -20,7 +20,7 @@ function setup(){
 
 function draw(){
   background("darkblue");
-  if(contestantCount === 2){
+  if(contestantCount === 6){
     quiz.update(1);
   }
   if(gameState === 1){
